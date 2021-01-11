@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zenzen.calculator.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".Finmenu"></activity>
+        <activity android:name=".SimpleInterest"></activity>
+        <activity android:name=".areamenu"></activity>
+        <activity android:name=".equationsmenu"></activity>
+        <activity android:name=".Themes"></activity>
+        <activity android:name=".profitloss"></activity>
+        <activity android:name=".discount"></activity>
+        <activity android:name=".circle"></activity>
+        <activity android:name=".square"></activity>
+        <activity android:name=".triangle"></activity>
+        <activity android:name=".quadr"></activity>
+        <activity android:name=".cube"></activity>
+        <activity android:name=".cuboid"></activity>
+        <activity android:name=".sphere"></activity>
+        <activity android:name=".cylinder"></activity>
+        <activity android:name=".cone"></activity>
+        <activity android:name=".pyramid"></activity>
+        <activity android:name=".solvexy"></activity>
+        <activity android:name=".solvexyz"></activity>
+        <activity android:name=".solvex"></activity>
+        <activity android:name=".force"></activity>
+        <activity android:name=".density"></activity>
+        <activity android:name=".formulasmenu"></activity>
+        <activity android:name=".surface"></activity>
+        <activity android:name=".specificheat"></activity>
+        <activity android:name=".gravity"></activity>
+        <activity android:name=".speedtime"></activity>
+        <activity android:name=".electricity"></activity>
+        <activity android:name=".ijvect"></activity>
+        <activity android:name=".ijkvect"></activity>
+        <activity android:name=".twomat"></activity>
+        <activity android:name=".threemat"></activity>
+        <activity android:name=".mvmenu"></activity>
+
+        <activity android:name=".inflation"></activity>
+        <activity android:name=".CompundInterest"></activity>
+    </application>
+
+</manifest>
