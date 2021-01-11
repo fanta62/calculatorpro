@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.zenzen.calculator.myapplication.areamenu"
+        android:padding="0dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:text="Calculator Pro"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textSize="24sp"
+                tools:background="@color/colorPrimaryDark"
+                android:padding="15dp"
+                android:textColor="@android:color/white"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:text="Circle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button35"
+                    android:background="@drawable/buttonmenu"
+                    android:layout_margin="5dp" />
+
+                <Button
+                    android:text="square"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button36"
+                    android:background="@drawable/buttonmenu"
+                    android:layout_margin="5dp" />
+
+                <Button
+                    android:text="triangle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button37"
+                    android:background="@drawable/buttonmenu"
+                    android:layout_margin="5dp" />
+
+                <Button
+                    android:text="quadrilateral"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button38"
+                    android:background="@drawable/buttonmenu"
+                    android:layout_margin="5dp" />
+
+                <Button
+                    android:text="cube"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button39"
+                    android:background="@drawable/buttonmenu"
+                    android:layout_margin="5dp" />
+                <Button
+                    android:text="cuboid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button391"
+                    android:background="@drawable/buttonmenu"
+                    android:layout_margin="5dp" />
+
+                <Button
+                    android:text="sphere"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button41"
+                    android:background="@drawable/buttonmenu"
+                    android:layout_margin="5dp" />
+
+                <Button
+                    android:text="Cone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button42"
+                    android:background="@drawable/buttonmenu"
+                    android:layout_margin="5dp" />
+
+                <Button
+                    android:text="Cylinder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button43"
+                    android:background="@drawable/buttonmenu"
+                    android:layout_margin="5dp" />
+
+                <Button
+                    android:text="Pyramid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button45"
+                    android:background="@drawable/buttonmenu"
+                    android:layout_margin="5dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

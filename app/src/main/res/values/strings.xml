@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculator Pro</string>
+    <string name="holder">0</string>
+    <string name="holder2">0</string>
+    <string name="flag">0</string>
+    <string name="dialog_title">Testing</string>
+    <string name="file_key">Testing</string>
+    <string name="help">Testing</string>
+</resources>
